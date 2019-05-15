@@ -1,0 +1,19 @@
+#include <IOE/IOECore/IOEDefines.h>
+
+namespace IOE
+{
+namespace Input
+{
+
+	//////////////////////////////////////////////////////////////////////////
+
+	interface_class IOEInputManager_PlatformBase
+	{
+	public:
+		virtual void Setup() = 0;
+	};
+
+	//////////////////////////////////////////////////////////////////////////
+
+} // namespace Input
+} // namespace IOE

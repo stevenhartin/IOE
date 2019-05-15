@@ -1,0 +1,7 @@
+<ioe>
+    <material name="DebugOctree">
+        <shader platform="DX11" type="Vertex" version="vs_5_0" entry="main" vertexformat="DebugDrawOctree">Shaders\VoxelConeTracing\vox_debug.vs.hlsl</shader>
+        <shader platform="DX11" type="Geometry" version="gs_5_0" entry="main">Shaders\VoxelConeTracing\vox_debug.gs.hlsl</shader>
+        <shader platform="DX11" type="Fragment" version="ps_5_0" entry="main">Shaders\VoxelConeTracing\vox_debug.ps.hlsl</shader>
+    </material>
+</ioe>

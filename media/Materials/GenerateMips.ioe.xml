@@ -1,0 +1,5 @@
+<ioe>
+    <material name="GenerateMips">
+        <shader platform="DX11" type="Compute" version="cs_5_0" entry="main">Shaders\VoxelConeTracing\generate_mips.cs.hlsl</shader>
+    </material>
+</ioe>

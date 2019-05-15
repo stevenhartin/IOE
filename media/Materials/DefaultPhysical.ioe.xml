@@ -1,0 +1,6 @@
+<ioe>
+    <material name="DefaultPhysical">
+        <shader platform="DX11" type="Vertex" version="vs_5_0" entry="main">Shaders\Default.vs.hlsl</shader>
+        <shader platform="DX11" type="Fragment" version="ps_5_0" entry="main">Shaders\Default.ps.hlsl</shader>
+    </material>
+</ioe>

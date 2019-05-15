@@ -1,0 +1,5 @@
+<ioe>
+    <material name="ClearPerPixelLinkedListBuffer">
+        <shader platform="DX11" type="Compute" version="cs_5_0" entry="main">Shaders\BidirectionalPathTracing\ClearPerPixelLinkedList.cs.hlsl</shader>
+    </material>
+</ioe>

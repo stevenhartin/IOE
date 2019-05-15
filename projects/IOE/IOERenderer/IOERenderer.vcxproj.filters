@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Platforms">
+      <UniqueIdentifier>{db8d9ab8-a152-4a4c-907b-b5bef4623adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platforms\DX11">
+      <UniqueIdentifier>{c23da6fc-16e4-4eaf-bdbe-0119faf87148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platforms\DX12">
+      <UniqueIdentifier>{d626495c-b7ed-4c5e-baa8-b85319d2aace}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOERPI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOERPI_Platform.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOERenderQueue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEMaterial.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOEShader_Platform.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEShader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOERPI_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEShader_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEViewport.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEViewport_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOEViewport_Platform.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOETexture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOETexture_Platform.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOETexture_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEModel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEModelManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEModel_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOEModel_Platform.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEVertexFormat.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEVertexFormat_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOEVertexFormat_Platform.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEBuffer_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOEBuffer_Platform.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEVisibilityBounds.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEFont.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\IOEFont_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOEFont_Platform.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOEBuffer_Platform.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOEFont_Platform.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOEModel_Platform.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOERPI_Platform.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOEShader_Platform.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOETexture_Platform.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOEVertexFormat_Platform.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOEViewport_Platform.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX12\IOEComSharedPtr.h">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOERenderer\DX11\IOEComSharedPtr.h">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX11\IOERPI_Platform.cpp">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX11\IOEShader_Platform.cpp">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOEShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOEMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOERPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOETexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX11\IOETexture_Platform.cpp">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOEModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOEModelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX11\IOEModel_Platform.cpp">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX11\IOEVertexFormat_Platform.cpp">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOEVertexFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX11\IOEBuffer_Platform.cpp">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOEVisibilityBounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\IOEFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX11\IOEFont_Platform.cpp">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX12\IOEBuffer_Platform.cpp">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX12\IOEFont_Platform.cpp">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX12\IOEModel_Platform.cpp">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX12\IOERPI_Platform.cpp">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX12\IOEShader_Platform.cpp">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX12\IOETexture_Platform.cpp">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX12\IOEVertexFormat_Platform.cpp">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX12\IOEViewport_Platform.cpp">
+      <Filter>Source Files\Platforms\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOERenderer\DX11\IOEViewport_Platform.cpp">
+      <Filter>Source Files\Platforms\DX11</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

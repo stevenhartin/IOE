@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Algorithms">
+      <UniqueIdentifier>{af4ff759-f75c-4204-ae56-0d16e2c97236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platforms">
+      <UniqueIdentifier>{b8a55d3c-6200-4f3b-85f0-793fef44df7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platforms\Win">
+      <UniqueIdentifier>{8215b7bd-1d71-4e86-812a-32db825106b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEDefines.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEDefines_Debug.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEDefines_Release.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEHeaders.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEManagerContainer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEDefines_Final.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\Algorithms\IOETokeniser.h">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\Algorithms\IOEStringHelpers.h">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEEngine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEHighResolutionTime.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEHighResolutionTime_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\Win\IOEHighResolutionTime_Platform.h">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\Win\IOEPlatformStatics_Platform.h">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEPlatformStatics_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOECore\IOEResourceCounter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\IOE\IOECore\IOEManager.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\src\IOE\IOECore\IOEEngine.inl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IOE\IOECore\IOEManagerContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOECore\IOEEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOECore\IOEManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOECore\Win\IOEHighResolutionTime_Platform.cpp">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

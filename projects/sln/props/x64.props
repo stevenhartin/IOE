@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <IOL_LIB_PATH>$(SolutionDir)..\..\lib\IOL\x64\</IOL_LIB_PATH>
+    <IOE_LIB_PATH>$(SolutionDir)..\..\lib\IOE\x64\</IOE_LIB_PATH>
+    <IOE_THIRDPARTY_LIB_PATH>$(SolutionDir)..\..\thirdparty\lib\</IOE_THIRDPARTY_LIB_PATH>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="IOL_LIB_PATH">
+      <Value>$(IOL_LIB_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="IOE_LIB_PATH">
+      <Value>$(IOE_LIB_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="IOE_THIRDPARTY_LIB_PATH">
+      <Value>$(IOE_THIRDPARTY_LIB_PATH)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

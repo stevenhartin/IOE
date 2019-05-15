@@ -1,0 +1,6 @@
+<ioe>
+    <material name="GenerateReflectiveShadowMap">
+        <shader platform="DX11" type="Vertex" version="vs_5_0" entry="main">Shaders\BuildCubeShadowMap.vs.hlsl</shader>
+        <shader platform="DX11" type="Fragment" version="ps_5_0" entry="main">Shaders\BuildCubeShadowMap.ps.hlsl</shader>
+    </material>
+</ioe>

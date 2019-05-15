@@ -1,0 +1,6 @@
+<ioe>
+    <material name="RenderText">
+        <shader platform="DX11" type="Vertex" version="vs_5_0" entry="main" vertexformat="Font">Shaders\RenderText.vs.hlsl</shader>
+        <shader platform="DX11" type="Fragment" version="ps_5_0" entry="main">Shaders\RenderText.ps.hlsl</shader>
+    </material>
+</ioe>

@@ -1,0 +1,5 @@
+<ioe>
+    <material name="CalculateRadianceRayBundle">
+        <shader platform="DX11" type="Compute" version="cs_5_0" entry="main">Shaders\BidirectionalPathTracing\CalculateRadiance.cs.hlsl</shader>
+    </material>
+</ioe>

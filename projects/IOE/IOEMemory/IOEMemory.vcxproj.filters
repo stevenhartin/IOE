@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Platforms">
+      <UniqueIdentifier>{86e6c727-d7ca-43de-a0de-1e85f210b1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platforms\Win">
+      <UniqueIdentifier>{3c7f0fdb-015e-43fc-b429-f34911ecb84a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IOE\IOEMemory\IOEMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEMemory\IOEMemoryChunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEMemory\IOEMemoryBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEMemory\IOEMemoryStatics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEMemory\Win\IOEMemory_Platform.cpp">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IOE\IOEMemory\IOEMemory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEMemory\IOEMemoryChunk.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEMemory\IOEMemoryBlock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEMemory\IOEBigBlock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEMemory\IOESmallBlock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEMemory\IOEMemoryStatics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEMemory\Win\IOEMemory_Platform.h">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEMemory\IOEMemoryStaticsBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

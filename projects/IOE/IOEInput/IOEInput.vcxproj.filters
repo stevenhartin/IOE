@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Platforms">
+      <UniqueIdentifier>{2ce4d7ac-33aa-41d4-a00d-0fa48c6d70ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platforms\Win">
+      <UniqueIdentifier>{d64db1d1-ec62-469c-8c92-a0617516b5c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputDevice.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputDevice_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputKeyboard.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputMouse.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputKeyboard_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputMouse_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\WIN\IOEInputKeyboard_Platform.h">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\WIN\IOEInputMouse_Platform.h">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputKeys.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\IOEInputManager_PlatformBase.h">
+      <Filter>Source Files\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IOE\IOEInput\WIN\IOEInputManager_Platform.h">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IOE\IOEInput\WIN\IOEInputKeyboard_Platform.cpp">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEInput\WIN\IOEInputMouse_Platform.cpp">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEInput\IOEInputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEInput\IOEInputKeyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEInput\IOEInputMouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEInput\IOEInputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IOE\IOEInput\WIN\IOEInputManager_Platform.cpp">
+      <Filter>Source Files\Platforms\Win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

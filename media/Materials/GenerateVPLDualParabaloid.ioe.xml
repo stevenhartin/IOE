@@ -1,0 +1,6 @@
+<ioe>
+    <material name="GenerateVPLDualParabaloid">
+        <shader platform="DX11" type="Vertex" version="vs_5_0" entry="main">Shaders\BidirectionalPathTracing\GenerateVPLDualParabaloid.vs.hlsl</shader>
+        <shader platform="DX11" type="Fragment" version="ps_5_0" entry="main">Shaders\BidirectionalPathTracing\GenerateVPLDualParabaloid.ps.hlsl</shader>
+    </material>
+</ioe>

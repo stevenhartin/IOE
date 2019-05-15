@@ -1,0 +1,6 @@
+<ioe>
+    <material name="DebugDrawPoints">
+        <shader platform="DX11" type="Vertex" version="vs_5_0" entry="main" vertexformat="DebugDrawOctree">Shaders\Debug\DebugDrawPoints.vs.hlsl</shader>
+        <shader platform="DX11" type="Fragment" version="ps_5_0" entry="main">Shaders\Debug\DebugDrawPoints.ps.hlsl</shader>
+    </material>
+</ioe>
